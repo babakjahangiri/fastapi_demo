@@ -9,6 +9,15 @@ To make it easy for you to get started with GitLab, here's a list of recommended
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
  
 
+## Run with Docker
+
+```
+docker build -t fastdemo:v1 .
+
+docker run -it --rm -p 30000:30000 fastdemo:v1
+```
+
+
 ## Run The Application
 
 
