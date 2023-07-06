@@ -13,7 +13,9 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 docker build -t fastdemo:v1 .
+```
 
+```
 docker run -it --rm -p 30000:30000 fastdemo:v1
 ```
 
